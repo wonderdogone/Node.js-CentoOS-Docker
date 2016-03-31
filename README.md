@@ -6,7 +6,7 @@ Often my production servers are running CentOS while my local development may be
 
 Here is how
 
-### 1- CLone the Dockerfile in this repo
+### 1- Clone the Dockerfile in this repo
 ### 2- Build it like so 
     #### docker build -t <yourname/yourtag>
 ###3 - cd into the directoryu with your node applciation code. Run the docker image that is based on CentOS and had Node.js installed
