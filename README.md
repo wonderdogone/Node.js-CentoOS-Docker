@@ -12,4 +12,5 @@ Here is how
 ###3 - cd into the directoryu with your node applciation code. Run the docker image that is based on CentOS and had Node.js installed
     #### docker run -it -p 8080:8080 -v $(PWD):/src -w /src <yourname/yourtag>
     Note: in the case above my app exposes 8080 so I map the Host port to the container port. 
-    Other then that  all this command  does is takes your source code and copies it into the container. the -it flag bascially brings you into the container at a terminal prompt       upon running.
+    Other then that  all this command  does is takes your source code and copies it into the container. 
+    The -it flag bascially brings you into the container at a terminal prompt.
